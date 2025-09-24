@@ -1,0 +1,145 @@
+@media (min-width: 1440px){
+    #lg-card{
+        width: 400px; 
+    }
+
+    #location{
+        font-size: 1rem;
+    }
+
+    #user-info{
+        font-size: 1rem;
+    }
+
+}
+
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card{
+    width: 310px; 
+    padding: 1em;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+}
+
+#lg-card{
+}
+
+.content-container{
+    text-align: center;
+}
+
+.card-img-top{
+    height: 75px;
+    width: 75px;
+}
+
+
+#name{
+    font-weight: 700;
+}
+
+#location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+#user-info{
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    min-height: 50px;
+    width:100%;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+.attribution { 
+    color: hsl(0, 0%, 100%);
+    font-size: 11px; 
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(75, 94%, 57%); 
+    text-decoration: none;
+}
+
+.attribution a:hover{ 
+    font-weight: 600;
+}
+
+
+/* body::before {
+  content: "XS";
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+@media (min-width: 576px) {
+  body::before {
+    content: "SM";
+  }
+}
+
+@media (min-width: 768px) {
+  body::before {
+    content: "MD";
+  }
+}
+
+@media (min-width: 992px) {
+  body::before {
+    content: "LG";
+  }
+}
+
+@media (min-width: 1200px) {
+  body::before {
+    content: "XL";
+  }
+}
+
+@media (min-width: 1400px) {
+  body::before {
+    content: "XXL";
+  }
+} */
